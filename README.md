@@ -44,6 +44,6 @@ console.log( new Date(decode('mother-fucker')) )
 
 When building/testing, you can now generate IDs that you can actually pronounce. You can also find out which IDs were generated when, either roughly (“Oh, it’s dahne, I remember it was somewhere last month”) or precisely (using decode).
 
-## What does “dahnen”
+## What does “dahnen” mean?
 
 According to Wikipedia, [Dahnen](https://en.wikipedia.org/wiki/Dahnen) is a municipality in the district of Bitburg-Prüm, in Rhineland-Palatinate, western Germany. However, in this case, the name was chosen just because it was the first word encoded at the time of creation (see second example above).
