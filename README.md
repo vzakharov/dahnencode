@@ -44,6 +44,8 @@ console.log( new Date(decode('mother-fucker')) )
 
 When building/testing, you can now generate IDs that you can actually pronounce. You can also find out which IDs were generated when, either roughly (“Oh, it’s dahne, I remember it was somewhere last month”) or precisely (using decode).
 
+Specifically, using `encode(new Date())` will give an ID that is specific to the current millisecond. Combined with e.g. [lodash](https://github.com/lodash/lodash)’s `_.uniqueId`, it can be used to generate unique *and* readable IDs for your app.
+
 ## What does “dahnen” mean?
 
 According to Wikipedia, [Dahnen](https://en.wikipedia.org/wiki/Dahnen) is a municipality in the district of Bitburg-Prüm, in Rhineland-Palatinate, western Germany. However, in this case, the name was chosen just because it was the first word encoded at the time of creation (see second example above).
