@@ -1,6 +1,6 @@
 {
   "name": "dahnencode",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convert numbers to easy-to-pronounce phrases.",
   "main": "dahnencode.js",
   "type": "module",
