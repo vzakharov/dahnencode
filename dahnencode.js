@@ -50,6 +50,6 @@ function decode(text) {
   return number
 }
 
-export {
+module.exports = {
   encode, decode
 }
