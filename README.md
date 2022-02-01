@@ -35,6 +35,9 @@ console.log( encode(new Date('2022-02-01T12:00:00.000Z')) )
 console.log( decode('dahnen-wowsom') )
 // 1643719353368
 
+cosole.log( decode('hellow-worlod') )
+// 4219107344762
+
 console.log( new Date(decode('mother-fucker')) )
 // Sat Aug 20 2191 16:32:42 GMT+0300 (Moscow Standard Time)
 // (Mark the date!)
