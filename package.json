@@ -1,0 +1,24 @@
+{
+  "name": "dahnencode",
+  "version": "1.0.0",
+  "description": "Convert numbers to easy-to-pronounce phrases.",
+  "main": "dahnencode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vzakharov/dahnencode.git"
+  },
+  "keywords": [
+    "encoder",
+    "id",
+    "generation"
+  ],
+  "author": "@vovahimself",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vzakharov/dahnencode/issues"
+  },
+  "homepage": "https://github.com/vzakharov/dahnencode#readme"
+}
