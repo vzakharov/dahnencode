@@ -56,3 +56,13 @@ Specifically, using `encode(new Date())` will give an ID that is specific to the
 # What does “dahnen” mean?
 
 According to Wikipedia, [Dahnen](https://en.wikipedia.org/wiki/Dahnen) is a municipality in the district of Bitburg-Prüm, in Rhineland-Palatinate, western Germany. However, in this case, the name was chosen just because it was the first word encoded at the time of creation (see second example above).
+
+# If you read this far...
+
+Fun fact, if you encode an id based on the current timestamp, every:
+- Last trigram is rotated every 2000 milliseconds, or 2 seconds.
+- Last word is rotated every 2000*2000=4e6 ms, or ~1 hour
+- Last trigram of the first word is rotated every 2000*2000*2000=8e9 ms, or ~90 days
+- The whole phrase is rotated every 2000*2000*2000*2000=16e12 ms, or ~500 years
+
+So you are likely to not see a 13-letter word unless you are REALLY patient.
